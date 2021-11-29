@@ -1,0 +1,17 @@
+GROUPING TAGS:
+
+-----------------------------
+
+Header  (Cabeçário)
+
+Main    (Menu)
+
+Nav     (Navegação)
+
+Article (Artigo)
+
+Section (Seção)
+
+Footer (Rodapé = Escritas que ficam no fim da página com mais informações ou algum botão como o de "volte ao topo")
+
+Aside   (uma pequena (ou não) escrita referente ao texto, exemplo: um texto falando sobre "computadores" e o aside é onde você escreve sobre quem inventou o computador, nome, época, etc...)
