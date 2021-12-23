@@ -14,9 +14,15 @@
             border-collapse: collapse;
             width: 500px;
         }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background: lightgray;
+        }
         
         td, th {
-            
             padding: 10px;
             border: 1px solid black;
             
@@ -37,6 +43,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES:
         TABLE
+            CAPTION
             THEAD
                 TD, TR, TH
             TBODY
@@ -45,10 +52,11 @@
                 TD, TR, TH
     -->
     <table>
+        <caption>População das Unidades Federativas em 2021</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 75px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -163,8 +171,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
-                <td>213.317.554</td>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num" style="font-weight: bold;">213.317.554</td>
             </tr>
         </tfoot>
     </table>
