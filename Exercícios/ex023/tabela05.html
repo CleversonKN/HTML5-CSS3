@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 5px;
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 5px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .yellow {
+            background: yellow;
+        }
+
+        .red {
+            background: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="yellow">
+            <col class="red" span="2">
+            <col class="yellow">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Veterinária</td>
+        </tr>
+        <tr>
+            <td>Fernanda Ferraz</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Bianca Matos</td>
+            <td>F</td>
+            <td>23</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Thiago Viga</td>
+            <td>M</td>
+            <td>41</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Luiz da Silva</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Hélio Veloso</td>
+            <td>M</td>
+            <td>36</td>
+            <td>Arquitéto</td>
+        </tr>
+    </table>
+</body>
+</html>
